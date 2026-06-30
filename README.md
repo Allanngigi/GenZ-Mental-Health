@@ -61,6 +61,27 @@ The goal is to build an end-to-end machine learning pipeline that predicts burno
      - Persona Clusters
 
 ---
+## 📈 Model Results
+
+| Model | Accuracy | ROC-AUC |
+| --- | --- | --- |
+| Random Forest | 0.9945 | 0.999751 |
+| Neural Net | 0.9310 | 0.985624 |
+
+
+# 🔍 Summary
+This table provides a quick comparison of the models we trained:
+- Random Forest (Classification): Evaluated with ROC-AUC for burnout risk prediction.
+- Neural Net (Classification): Evaluated with accuracy for burnout risk prediction.
+- Random Forest (Regression): Evaluated with RMSE for well-being index estimation.
+
+# Takeaway:
+- Random Forest: Accuracy ≈ 0.9945, ROC‑AUC ≈ 0.9998 → excellent performance.
+- Neural Net: Accuracy ≈ 0.9310, ROC‑AUC ≈ 0.9856 → strong but slightly behind.
+
+Both models perform well, but Random Forest edges ahead. Neural Net remains competitive and may generalize better if sequential/time‑series features are added.
+
+---
 
 ## 📊 Dashboard Highlights
 - Burnout Risk Predictions: Interactive classification results.
@@ -78,21 +99,7 @@ The goal is to build an end-to-end machine learning pipeline that predicts burno
 
 ---
 
-## 📷 Project Screenshots
 
-Add screenshots such as:
-
-- Correlation Heatmap
-- Feature Importance
-- Confusion Matrix
-- ROC Curve
-- Model Accuracy Comparison
-
-Example:
-
-![Correlation Heatmap](images/heatmap.png)
-
----
 
 ## 🚀 How to Run the Project
 
@@ -128,30 +135,11 @@ GenZ_Mental_Health.ipynb
 
 ---
 
-## 📁 Project Structure
-
-```
-genz-mental-health-ml/
-│
-├── data/
-├── notebooks/
-├── images/
-├── models/
-├── requirements.txt
-├── README.md
-└── GenZ_Mental_Health.ipynb
-```
-
----
-
-## 📌 Key Findings
-
-- Sleep quality strongly influences mental health.
-- Financial stress contributes significantly to anxiety.
-- Academic pressure is one of the strongest predictors.
-- Random Forest achieved the highest prediction accuracy.
-
-*(Update these findings to reflect your own analysis.)*
+## 📌 Key Takeaways
+- Digital lifestyle patterns strongly correlate with mental wellness outcomes.
+- Clustering reveals distinct personas that can guide interventions.
+- Interpretability tools ensure transparency in predictions.
+- Dashboard deployment makes insights accessible and portfolio-ready.
 
 ---
 
@@ -163,6 +151,6 @@ Economics & Statistics Graduate
 
 Python | SQL | Power BI | Machine Learning
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/Allanngigi
 
 LinkedIn: https://linkedin.com/in/yourprofile
