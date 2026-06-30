@@ -19,12 +19,12 @@ The goal is to build an end-to-end machine learning pipeline that predicts burno
 
 ## 📂 Project Structure
 
-├── data/                  # Raw & processed datasets
-├── notebooks/             # Guided Jupyter notebooks with annotations
-├── src/                   # Core ML pipeline scripts
-├── dashboard/             # Streamlit app for interactive visualization
-├── README.md              # Project documentation
-└── requirements.txt       # Dependencies
+* data- Raw & processed datasets
+* notebooks- Guided Jupyter notebooks with annotations
+* src- Core ML pipeline scripts
+* dashboard- Streamlit app for interactive visualization
+* README.md- Project documentation
+* requirements.txt- Dependencies
 
 
 ---
