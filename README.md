@@ -59,9 +59,6 @@ The goal is to build an end-to-end machine learning pipeline that predicts burno
      - EDA
      - Model Results
      - Persona Clusters
----
-
-
 
 ---
 
