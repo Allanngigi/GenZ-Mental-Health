@@ -153,4 +153,4 @@ Python | SQL | Power BI | Machine Learning
 
 GitHub: https://github.com/Allanngigi
 
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: https://linkedin.com/in/allan-ngigi-16a2b53b6/
