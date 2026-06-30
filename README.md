@@ -1,79 +1,83 @@
-# 🧠 Gen Z Mental Health Prediction using Machine Learning
+# 🧠 Gen Z Mental Wellness & Digital Lifestyle Patterns
 
 ## 📌 Project Overview
 
-Mental health challenges among Generation Z have become increasingly common. This project applies machine learning techniques to analyze mental health survey data and predict an individual's mental health status based on various demographic, lifestyle, and psychological factors.
-
-The project demonstrates a complete machine learning workflow including data cleaning, exploratory data analysis (EDA), feature engineering, model building, evaluation, and prediction.
+Mental health challenges among Generation Z have become increasingly common. This project explores the relationship between digital lifestyle patterns (screen time, social media use, gaming, sleep habits, study/work balance) and mental wellness outcomes among Gen Z.
+The goal is to build an end-to-end machine learning pipeline that predicts burnout risk and uncovers actionable insights into lifestyle-health connections.
 
 ---
 
 ## 🎯 Objectives
 
-- Explore factors affecting Gen Z mental health.
-- Clean and preprocess real-world survey data.
-- Perform exploratory data analysis.
-- Train multiple machine learning models.
-- Compare model performance.
-- Identify the best-performing model for prediction.
+- Predict burnout risk (Low, Medium, High) from digital lifestyle features.
+- Identify hidden lifestyle clusters (e.g., "night owls," "heavy gamers," "social media
+  influencers").
+- Provide interpretable insights into how digital habits affect wellbeing.
+- Deploy results in an interactive dashboard for portfolio-ready presentation.
 
 ---
 
-## 📂 Dataset
+## 📂 Project Structure
 
-The dataset contains information about:
+├── data/                  # Raw & processed datasets
+├── notebooks/             # Guided Jupyter notebooks with annotations
+├── src/                   # Core ML pipeline scripts
+├── dashboard/             # Streamlit app for interactive visualization
+├── README.md              # Project documentation
+└── requirements.txt       # Dependencies
 
-- Age
-- Gender
-- Academic pressure
-- Work pressure
-- Sleep habits
-- Financial stress
-- Family history
-- Lifestyle factors
-- Mental health status
 
 ---
 
-## 🛠 Technologies Used
+## ⚙️ Workflow
+1. Data Collection
+   - Surveys, Kaggle datasets, public health sources.
+   - Features: screen time, sleep patterns, social media use, study/work balance, stress levels.
 
-- Python
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+2. Preprocessing
+   - Cleaning, encoding categorical variables, scaling numeric features.
+   - Feature engineering (e.g., productive vs. entertainment screen time ratio).
+
+3. Exploratory Data Analysis (EDA)
+   - Correlation heatmaps.
+   - Lifestyle clustering.
+   - Burnout risk distribution.
+4. Modeling
+   - Supervised: Random Forest, Gradient Boosting.
+   - Unsupervised: K-means, DBSCAN, PCA.
+   - NLP: Sentiment/emotion detection from text data.
+5. Evaluation
+   - Metrics: Accuracy, F1-score, RMSE.
+   - Confusion matrix for class-level performance.
+   
+  6. Interpretability
+     - Feature importance plots.
+     - SHAP values, permutation importance, partial dependence plots.
+
+7. Deployment
+   * Streamlit dashboard with tabs for:
+     - EDA
+     - Model Results
+     - Persona Clusters
+---
+
+
 
 ---
 
-## 📊 Machine Learning Workflow
-
-1. Import libraries
-2. Load dataset
-3. Data cleaning
-4. Handle missing values
-5. Encode categorical variables
-6. Exploratory Data Analysis
-7. Feature selection
-8. Train-test split
-9. Train machine learning models
-10. Evaluate performance
-11. Compare models
-12. Make predictions
+## 📊 Dashboard Highlights
+- Burnout Risk Predictions: Interactive classification results.
+- Lifestyle Personas: Clustered groups with descriptive labels.
+- Feature Insights: Visual explanations of model decisions.
 
 ---
 
-## 📈 Model Performance
+## 🛠️ Tech Stack
+- Python: pandas, NumPy, scikit-learn, seaborn, matplotlib
+- Visualization: Streamlit, Plotly
+- Interpretability: SHAP, permutation importance
+- Deployment: Streamlit dashboard
 
-| Model | Accuracy |
-|--------|----------|
-| Logistic Regression | XX% |
-| Decision Tree | XX% |
-| Random Forest | XX% |
-| XGBoost | XX% |
-
-*(Update these values with your actual results.)*
 
 ---
 
